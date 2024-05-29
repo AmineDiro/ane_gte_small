@@ -292,7 +292,6 @@ class BertModel(modeling_bert.BertModel):
         setattr(self, "embeddings", Embeddings(config))
         setattr(self, "encoder", Encoder(config))
         setattr(self, "pooler", Pooler(config) if add_pooling_layer else None)
-        # TODO: add poooler ??
         # Register hook for unsqueezing nn.Linear parameters to match nn.Conv2d parameter spec
         self._register_load_state_dict_pre_hook(linear_to_conv2d_map)
 
