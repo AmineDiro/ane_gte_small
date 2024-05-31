@@ -11,5 +11,8 @@ python gte_small_convert.py
 ```
 3. Run inference  `python ane_inference.py`
 
+![bfde7be4-bfe1-4f91-a7ca-cc286ca5db57](https://github.com/AmineDiro/ane_gte_small/assets/14312141/067f83ab-cb4f-4f12-a516-fde58f50aef2)
+
+
 ## Reference :
 - Original research article: [Deploying Transformers on the Apple Neural Engine](https://machinelearning.apple.com/research/neural-engine-transformers)
